@@ -1,6 +1,6 @@
 ---
 name: fiction-bedtime-story-collection
-description: Create children's bedtime story collections as a complete book package, including collection concept, 15 unique story seeds, introduction, conclusion, compiled markdown, and DOCX export. Use when the user wants a themed bedtime-story book for children ages 4-8 built around topics like fairies, mermaids, princesses, pets, or similar child-friendly themes, with consistent title patterns, gentle lessons, and non-repetitive short stories.
+description: Create children's bedtime story collections as a complete book package, including collection concept, 15 unique story seeds, introduction, conclusion, compiled markdown, DOCX export, and Amazon KDP marketing assets. Use when the user wants a themed bedtime-story book for children ages 4-8 built around topics like fairies, mermaids, princesses, pets, or similar child-friendly themes, with consistent title patterns, gentle lessons, and non-repetitive short stories.
 ---
 
 # Fiction Bedtime Story Collection
@@ -20,6 +20,8 @@ Default collection format:
 - 1 conclusion
 - compiled markdown manuscript
 - DOCX export via pandoc
+- Amazon KDP description
+- Amazon KDP keywords
 
 ## Collection format rules
 
@@ -190,6 +192,29 @@ Fix any repetition or continuity errors before compiling.
 
 Combine the dedication, introduction, all markdown stories, and the conclusion into one markdown manuscript and convert it to DOCX using pandoc.
 
+## Step 9: Create Amazon KDP assets
+
+After the book files are complete, create Amazon KDP marketing files in markdown.
+
+Create:
+
+- one KDP-ready book description
+- one keyword list for the 7 Amazon KDP keyword slots
+
+The KDP description should:
+
+- clearly describe the theme, audience, and bedtime tone
+- highlight the emotional benefits and story content
+- use short paragraphs and scannable benefit bullets
+- include a version formatted for Amazon KDP using simple supported markup such as `<br>`, `<b>`, and `<i>`
+
+The KDP keywords file should:
+
+- provide 7 keyword phrases suitable for Amazon KDP backend slots
+- avoid repeating the exact full title too heavily
+- focus on likely parent and gift-buyer search intent
+- include an optional supporting SEO word bank for future metadata use
+
 ## File structure
 
 Use this structure for a collection project:
@@ -205,6 +230,8 @@ Use this structure for a collection project:
 - `books/fiction/<collection-slug>/conclusion.md`
 - `books/fiction/<collection-slug>/<collection-slug>.md`
 - `books/fiction/<collection-slug>/<collection-slug>.docx`
+- `books/fiction/<collection-slug>/amazon-kdp-description.md`
+- `books/fiction/<collection-slug>/amazon-kdp-keywords.md`
 
 ## Output order in compiled manuscript
 

@@ -17,3 +17,5 @@ Files:
 - `conclusion.md`
 - `garden-tales.md`
 - `garden-tales.docx`
+- `amazon-kdp-description.md`
+- `amazon-kdp-keywords.md`
