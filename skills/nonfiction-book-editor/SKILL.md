@@ -45,6 +45,7 @@ High-value editing moves:
 - add missing chapters only when the book genuinely needs them
 - strengthen weak chapters with clearer progression
 - add practical frameworks, templates, checklists, or exercises when they increase usefulness
+- add dot-point lists and compact markdown tables where they make dense practical content easier to scan
 - add case studies or examples where abstraction is hurting clarity
 - add failure modes, common mistakes, or troubleshooting sections where appropriate
 - sharpen transitions and chapter endings
@@ -59,6 +60,7 @@ Check for:
 - heading consistency
 - spacing consistency
 - bullet formatting
+- table formatting and readability in markdown and DOCX output
 - chapter summary consistency
 - reference formatting consistency
 - paragraph readability
@@ -98,6 +100,7 @@ When a nonfiction manuscript is too thin, expand with useful material such as:
 - failure modes and fixes
 - diagnostic questions
 - brief reflective exercises
+- compact comparison tables, role matrices, metric tables, decision tables, or risk tables
 
 Avoid filler, motivational padding, and repetitive emphasis.
 
@@ -132,5 +135,7 @@ A nonfiction manuscript is ready for export only when:
 - structure is coherent
 - repetition has been reduced
 - weak sections have been strengthened or flagged
+- every chapter meets the required project word count, usually at least 3,000 words for full-length books
+- selected chapters include readable dot-point lists or tables where useful, without turning the manuscript into a slide deck
 - formatting is consistent enough for clean DOCX conversion
 - the manuscript meets the shared quality bar in `references/final-manuscript-checklist.md`

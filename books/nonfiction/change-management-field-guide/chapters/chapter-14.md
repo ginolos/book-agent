@@ -38,11 +38,25 @@ Governance is not one meeting. It is a set of forums with different purposes. A 
 
 Each forum should have a clear mandate. The working team should manage near-term execution, dependency tracking, issue triage, and preparation of decisions. The change leadership group should review adoption evidence, manager readiness, communication needs, resistance patterns, and stakeholder alignment. The steering committee should decide on scope, funding, policy, timing, unresolved cross-functional conflicts, and launch readiness. If a topic does not match the forum mandate, move it to the right forum rather than letting the agenda sprawl.
 
+| Forum | Primary purpose | Typical decisions |
+| --- | --- | --- |
+| Working team | Resolve delivery issues and prepare decisions | Dependencies, issue triage, action owners |
+| Change leadership group | Review adoption evidence and field friction | Readiness actions, communication shifts, manager support |
+| Steering committee | Own executive tradeoffs and unresolved conflict | Scope, funding, timing, policy, launch readiness |
+
 Cadence should reflect implementation risk. A low-risk process update may need light governance. A global operating model change, regulatory program, or major technology deployment may need weekly executive attention during critical periods. Cadence can also change over time. A program may move from monthly governance during design to weekly governance during launch preparation, then to daily triage during hypercare. Static cadence often misses the rhythm of actual risk.
 
 Effective agendas separate information from judgment. Pre-reads should carry standard status, milestone updates, and background data. Meeting time should focus on decisions needed, risks requiring intervention, new field intelligence, tradeoffs, and actions that have stalled. This discipline respects the time of senior leaders and implementation teams. It also prevents the meeting from becoming a place where people read slides to one another.
 
-A simple governance architecture can be built around five recurring questions. What has changed since the last review? Which risks are increasing? Which decisions are needed now? Where are employees or managers experiencing friction? What leadership action would materially improve adoption? If a governance forum cannot answer these questions, it is probably collecting status rather than governing implementation.
+A simple governance architecture can be built around five recurring questions:
+
+- What has changed since the last review?
+- Which risks are increasing?
+- Which decisions are needed now?
+- Where are employees or managers experiencing friction?
+- What leadership action would materially improve adoption?
+
+If a governance forum cannot answer these questions, it is probably collecting status rather than governing implementation.
 
 ### Section Summary
 - Governance works best as a set of forums with distinct purposes and authority levels.
@@ -60,7 +74,14 @@ A simple governance architecture can be built around five recurring questions. W
 
 Issues should be escalated when they cannot be resolved at the level where they appear. A local training question may not need executive attention. A conflict between sales targets and required process adoption probably does. Governance should define escalation thresholds so teams do not guess. Without thresholds, some teams escalate everything to protect themselves, while others absorb serious risks until there is no time left to act.
 
-Escalation criteria should include impact, urgency, authority, and pattern. Impact asks how many people, customers, processes, or obligations are affected. Urgency asks how quickly the issue must be resolved to prevent damage. Authority asks whether the team facing the issue has the power to solve it. Pattern asks whether the issue is isolated or a signal of a broader design flaw. A single user complaint may be local. The same complaint from five regions may indicate that the training, process, or tool does not fit the work.
+Escalation criteria should include four tests:
+
+- Impact: how many people, customers, processes, or obligations are affected.
+- Urgency: how quickly the issue must be resolved to prevent damage.
+- Authority: whether the team facing the issue has the power to solve it.
+- Pattern: whether the issue is isolated or a signal of a broader design flaw.
+
+A single user complaint may be local. The same complaint from five regions may indicate that the training, process, or tool does not fit the work.
 
 Risk reviews should include adoption risk, not only technical or schedule risk. If a project is green on build milestones but red on manager readiness, the overall status is not green. Leaders need a view that reflects the full implementation. Adoption risk may appear as low training confidence, unclear role ownership, process conflict, poor data quality, high workaround usage, low manager engagement, unresolved policy tension, or sentiment that the change is impractical.
 
@@ -132,7 +153,16 @@ A better governance meeting focuses on decisions needed, risks requiring interve
 
 Implementation rarely follows the original plan exactly. Teams discover process gaps, local constraints, data problems, customer commitments, policy conflicts, and system limitations. Governance must distinguish between useful adaptation and uncontrolled scope drift. Useful adaptation improves fit while preserving the intent of the change. Scope drift expands the work, delays benefits, and often creates complexity that the organization cannot sustain.
 
-Scope decisions should be made against explicit criteria. Does the request protect legal, safety, customer, or financial obligations? Does it improve adoption for a critical user group? Does it preserve the value case? Does it create complexity for another team? Does it require additional funding, training, system design, or support capacity? Does it change the promised benefits or timing? These questions move the conversation from preference to consequence.
+Scope decisions should be made against explicit criteria:
+
+- Does the request protect legal, safety, customer, or financial obligations?
+- Does it improve adoption for a critical user group?
+- Does it preserve the value case?
+- Does it create complexity for another team?
+- Does it require additional funding, training, system design, or support capacity?
+- Does it change the promised benefits or timing?
+
+These questions move the conversation from preference to consequence.
 
 Exceptions require equal discipline. Some exceptions are necessary because a location, customer segment, union agreement, regulatory requirement, or operational constraint truly differs from the standard design. Other exceptions are resistance in procedural form. A leader may request an exception because their team is busy, because the old process is comfortable, or because local metrics reward different behavior. Governance should not reject all exceptions. It should require evidence, define the duration, identify the owner, and specify how the exception will be reviewed.
 
@@ -158,7 +188,13 @@ Leaders govern implementation through more than attendance. Their role is to set
 
 The executive sponsor should own strategic alignment and major tradeoffs. This includes confirming that the change remains connected to business priorities, resolving conflicts among senior leaders, approving material scope changes, and accepting significant risk. The sponsor should also ensure that the leadership team gives consistent signals. If one executive treats the change as required and another treats it as optional, employees will notice the inconsistency and follow the signal that best fits local pressure.
 
-Process owners should own the design of the work. They decide how the process should operate, what standards matter, which variations are allowed, and how quality will be monitored. Technology owners should own system integrity, configuration choices, data requirements, and support readiness. People leaders should own local readiness, manager routines, role clarity, and reinforcement. Change practitioners should facilitate readiness, stakeholder engagement, communication, training alignment, and adoption diagnostics, but they should not become substitutes for accountable business leaders.
+Process owners should own the design of the work. They decide how the process should operate, what standards matter, which variations are allowed, and how quality will be monitored. Other leadership roles should be equally explicit:
+
+- Technology owners own system integrity, configuration choices, data requirements, and support readiness.
+- People leaders own local readiness, manager routines, role clarity, and reinforcement.
+- Change practitioners facilitate readiness, stakeholder engagement, communication, training alignment, and adoption diagnostics.
+
+Change practitioners should not become substitutes for accountable business leaders.
 
 Managers have a specific governance role that is often underestimated. They translate decisions into daily expectations. They identify friction before it reaches dashboards. They notice when employees use workarounds, misunderstand the process, or receive conflicting instructions. Governance should give managers a path to raise issues and receive answers. If managers are only recipients of decisions, the governance system loses its closest observers of adoption.
 

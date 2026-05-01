@@ -98,8 +98,8 @@ Strictly avoid:
 
 ## Variables to replace
 
-- `[TOPIC]` — the subject matter of the section
-- `[BOOK TITLE]` — full title of the book
-- `[Section Title]` — title of the subsection from the outline
-- `[Section description/content from outline]` — the original outline material
-- `[Expanded outline from Step 2A]` — the detailed plan produced in the first expansion step
+- `[TOPIC]` - the subject matter of the section
+- `[BOOK TITLE]` - full title of the book
+- `[Section Title]` - title of the subsection from the outline
+- `[Section description/content from outline]` - the original outline material
+- `[Expanded outline from Step 2A]` - the detailed plan produced in the first expansion step

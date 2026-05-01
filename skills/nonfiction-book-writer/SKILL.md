@@ -5,7 +5,7 @@ description: Create a detailed nonfiction book outline from a topic and keywords
 
 # Nonfiction Book Writer
 
-Create the outline first, then write the book from that outline.
+Create the outline first, then write the book from that outline. For full books, default to parallel chapter drafting and strict word-count verification.
 
 > This skill is for nonfiction books only.
 
@@ -43,6 +43,27 @@ If the user already has an outline, you may refine it, but the preferred workflo
 
 ## Step 2: Expand each chapter section by section
 
+### Parallel chapter drafting default
+
+For full-length books with multiple chapters, use one worker agent per chapter when the runtime allows sub-agents and the user has permitted agent delegation. Assign each worker exactly one chapter file and a disjoint write scope:
+
+- `books/nonfiction/<book-slug>/chapters/chapter-01.md`
+- `books/nonfiction/<book-slug>/chapters/chapter-02.md`
+- continue one file per worker until all chapters are assigned
+
+Tell each worker:
+
+- they are not alone in the codebase
+- they must not revert or modify edits made by others
+- they own only their assigned chapter file
+- they must expand the chapter to at least 3,000 words
+- they must preserve the chapter title, topic, and manuscript tone
+- they must include practical examples, frameworks, checklists, diagnostics, failure modes, or tables where useful
+- they must avoid filler, em dashes, and motivational padding
+- their final response must list the changed file and approximate word count
+
+If the environment has an agent-thread limit, run workers in batches and assign the next chapter as each worker completes. Do not leave chapters below the required word count because a worker slot was unavailable.
+
 Complete all subsections in a chapter before moving to the next chapter.
 
 ### Substep 2A: Expand the subsection outline
@@ -72,6 +93,8 @@ Required style rules:
 - use practical, precise language
 - include brief real-world examples where helpful
 - integrate bullet points naturally into the narrative flow
+- include selected dot-point lists, checklists, diagnostic questions, or compact markdown tables where they improve readability
+- avoid long uninterrupted walls of prose when a practical framework can be made easier to scan
 - end the subsection with `Section Summary` and `References` in bullet form
 
 Strictly avoid:
@@ -89,6 +112,19 @@ After all subsections for a chapter are drafted:
 - check total chapter word count
 - if the chapter is below 3,000 words, expand usefully rather than padding
 - only move to the next chapter once the chapter is substantively complete
+
+For multi-agent chapter drafting, do not rely only on worker estimates. After all workers finish, run a local word-count verification across every chapter, for example:
+
+```bash
+wc -w books/nonfiction/<book-slug>/chapters/chapter-*.md
+```
+
+Required remediation:
+
+- every chapter must be at least 3,000 words
+- any chapter below 3,000 words must be reassigned or expanded before compilation
+- record the final chapter word counts in the completion summary or notes
+- verify that the compiled manuscript reflects the expanded chapter files
 
 ## Step 4: Compile the manuscript markdown
 
@@ -108,6 +144,7 @@ Editing goals:
 - remove repetition
 - strengthen weak sections
 - add practical frameworks, checklists, examples, or failure modes where they genuinely help
+- add dot-point lists and markdown tables in selected sections to break up dense prose and improve scanability
 - normalize headings, bullets, summaries, and formatting
 
 For a new book, treat the editor skill as the default post-draft stage rather than an optional extra.
@@ -133,6 +170,7 @@ If the compiled manuscript is under roughly 40,000 words and the target is close
 - decision tools
 - diagnostics or self-assessment questions
 - first-person professional anecdotes when consistent with the author voice
+- concise markdown tables that compare options, roles, risks, metrics, or decision criteria
 
 After expansion, recompile the markdown and regenerate the DOCX.
 
@@ -157,6 +195,7 @@ Recommended chapter shape:
 - section 1
 - section 2
 - additional sections as needed
+- selected dot-point lists or tables where they make practical material easier to use
 - conclusion
 - chapter summary in bullet points
 
@@ -168,6 +207,7 @@ The expected flow is:
 1. receive topic + keywords
 2. generate the 16-20 chapter outline
 3. save the outline
-4. write the book from that outline
-5. edit and polish the manuscript
-6. export the finished DOCX
+4. write the book from that outline, using one chapter worker per chapter when available and permitted
+5. verify every chapter meets the minimum word count
+6. edit and polish the manuscript, including scanability improvements such as bullet lists and tables
+7. export the finished DOCX

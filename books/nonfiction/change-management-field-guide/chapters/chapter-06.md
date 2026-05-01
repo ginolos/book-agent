@@ -32,7 +32,18 @@ A useful readiness diagnostic separates these dimensions by stakeholder group. I
 
 A simple readiness scale can help teams compare conditions without pretending to be precise. Use four levels: red means the group is not ready and launch would create predictable failure; amber means readiness is incomplete and mitigation is required before launch; yellow means the group can proceed with active support; green means the group is ready enough for the planned pace. The value is not the color itself. The value is the evidence and action attached to the color. A green rating without evidence is weaker than an amber rating with a clear mitigation plan.
 
-The following checklist can be used in readiness reviews with sponsors, managers, and change leads. Can the group explain why the change is needed? Can they name what will stop, start, and continue? Have managers held team-level conversations? Have users practiced realistic scenarios? Are support channels staffed and known? Are local workarounds identified? Have competing deadlines been reviewed? Are leaders prepared to remove barriers? Are measures aligned with the new behavior? Has prior change history been acknowledged where relevant?
+The following checklist can be used in readiness reviews with sponsors, managers, and change leads:
+
+- Can the group explain why the change is needed?
+- Can they name what will stop, start, and continue?
+- Have managers held team-level conversations?
+- Have users practiced realistic scenarios?
+- Are support channels staffed and known?
+- Are local workarounds identified?
+- Have competing deadlines been reviewed?
+- Are leaders prepared to remove barriers?
+- Are measures aligned with the new behavior?
+- Has prior change history been acknowledged where relevant?
 
 Consider a hospital network introducing a new patient discharge process. Physicians understand the clinical rationale, but residents rotate frequently and miss the training window. Nurses know the process steps, but the electronic health record template is slow during peak discharge hours. Case managers support the goal, but worry that transportation vendors will not respond fast enough. A readiness diagnosis that simply asks whether each group supports the change would miss the real risks. A useful diagnosis would identify knowledge risk for residents, technology usability risk for nurses, and dependency risk for case managers.
 
@@ -78,11 +89,26 @@ Political and identity risks are often understated. A change may alter decision 
 
 External dependency risk arises when adoption depends on customers, vendors, regulators, unions, partners, or community stakeholders. An internal team may be ready, but a vendor may not be able to support the new process. A customer may reject a new digital channel if contract language still promises phone support. A regulator may require documentation that the project team has not built into the workflow. Diagnosis should include the readiness of external parties where their behavior affects outcomes.
 
-Risk diagnosis should distinguish between probability, impact, and detectability. Probability asks how likely the risk is. Impact asks how severe the consequence would be. Detectability asks how quickly the organization would know the risk is happening. A low-probability, high-impact risk may still deserve mitigation if it would damage customers, safety, compliance, or trust. A moderate risk with low detectability may also deserve attention because the organization may discover it only after harm has accumulated.
+Risk diagnosis should distinguish between probability, impact, and detectability. Probability asks how likely the risk is. Impact asks how severe the consequence would be. Detectability asks how quickly the organization would know the risk is happening.
+
+| Factor | Question to ask | Why it matters |
+| --- | --- | --- |
+| Probability | How likely is this risk? | Helps leaders decide whether prevention is warranted. |
+| Impact | How severe would the consequence be? | Surfaces risks that could damage customers, safety, compliance, or trust. |
+| Detectability | How quickly would we know? | Identifies risks that may accumulate harm before they are visible. |
+
+A low-probability, high-impact risk may still deserve mitigation if it would damage customers, safety, compliance, or trust. A moderate risk with low detectability may also deserve attention because the organization may discover it only after harm has accumulated.
 
 A practical risk statement has four parts: condition, cause, consequence, and signal. For example: "If branch managers receive final procedures less than two weeks before launch because policy decisions are still open, they will be unable to brief teams properly, and early transactions will be delayed. Warning signals include repeated manager questions about exceptions, inconsistent answers in regional calls, and increased use of old forms." This format moves the discussion from vague concern to observable management.
 
-Risk workshops should include people close enough to the work to identify practical failure points. Senior leaders can name strategic concerns, but frontline supervisors, analysts, schedulers, service agents, and implementation specialists often see the operational risks first. The workshop should ask participants to complete statements such as: "This will fail in our area if...," "The workaround people will use is...," "The first customer complaint will be about...," and "The metric that will show trouble early is...." These prompts make risk concrete.
+Risk workshops should include people close enough to the work to identify practical failure points. Senior leaders can name strategic concerns, but frontline supervisors, analysts, schedulers, service agents, and implementation specialists often see the operational risks first. The workshop should ask participants to complete prompts such as:
+
+- "This will fail in our area if..."
+- "The workaround people will use is..."
+- "The first customer complaint will be about..."
+- "The metric that will show trouble early is..."
+
+These prompts make risk concrete.
 
 An effective diagnostic also looks for risk clusters. A single amber rating may be manageable. Several amber ratings in the same location, role, or milestone may indicate a deeper exposure. For instance, a manufacturing site might have moderate training risk, moderate staffing risk, moderate supervisor readiness risk, and moderate technology access risk. Considered separately, each risk seems manageable. Combined, they suggest that the site should not be in the first deployment wave without additional support.
 
@@ -116,7 +142,17 @@ A readiness register should be simple enough that leaders use it. Useful columns
 
 The register should also distinguish action owners from accountable decision makers. A change lead may coordinate manager briefings, but the sales vice president may need to decide whether quota expectations will be adjusted during transition. A training manager may revise practice scenarios, but the operations leader may need to release employees from production work to attend. Without this distinction, teams assign actions to people who can coordinate activity but cannot remove the barrier.
 
-The next step is to set readiness thresholds. Thresholds define what must be true before a group enters a pilot, launch wave, or full adoption period. Examples include: all managers have completed a briefing and held a team conversation; critical defects have workarounds; users have practiced the top five scenarios; support channels have named owners and response targets; legacy forms are removed or locked; performance dashboards reflect new behaviors; local leaders have signed off on capacity. Thresholds prevent readiness from becoming a subjective debate at the last minute.
+The next step is to set readiness thresholds. Thresholds define what must be true before a group enters a pilot, launch wave, or full adoption period. Common examples include:
+
+- All managers have completed a briefing and held a team conversation.
+- Critical defects have workarounds.
+- Users have practiced the top five scenarios.
+- Support channels have named owners and response targets.
+- Legacy forms are removed or locked.
+- Performance dashboards reflect new behaviors.
+- Local leaders have signed off on capacity.
+
+Thresholds prevent readiness from becoming a subjective debate at the last minute.
 
 Pilot design is one of the strongest ways to turn diagnosis into action. A pilot should not be a ceremonial preview with friendly users and extra support that the full rollout will not receive. It should test the change under conditions close enough to reality to reveal problems. The pilot should include clear hypotheses, entry criteria, success measures, support processes, feedback channels, and a decision rule for scaling. If the pilot discovers that supervisors need two additional job aids and a daily issue review, those supports should be built into the rollout rather than treated as pilot-only attention.
 

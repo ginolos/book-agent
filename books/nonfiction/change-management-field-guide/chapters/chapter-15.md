@@ -16,6 +16,14 @@ Reinforcement means the new behavior is expected, observed, supported, and recog
 
 The first reinforcement question is simple: what exactly should people keep doing after launch? A vague answer creates weak reinforcement. "Use the new system" is not specific enough. A stronger answer identifies the behavior, standard, frequency, and evidence. For example, sales managers may need to review opportunity stages using a new qualification checklist every Friday. Plant supervisors may need to verify lockout documentation before shift handoff. Finance approvers may need to reject expense submissions that omit required project codes. Clear behavior gives managers something observable to coach and gives employees a stable definition of good performance.
 
+A reinforcement statement is usually strong enough when it answers these points:
+
+- The behavior employees or managers are expected to repeat.
+- The situation, trigger, or work step where the behavior should occur.
+- The evidence that shows whether the behavior happened.
+- The person responsible for coaching or correcting the behavior.
+- The consequence when the old way is still used.
+
 Recognition should be specific. Celebrating "embracing change" is less useful than recognizing a team that reduced rework by using the new intake process consistently. Specific recognition teaches the organization what good adoption looks like. It also prevents recognition from becoming ceremonial. Employees are more likely to trust recognition when it points to a concrete behavior, a measurable result, or a peer example that can be repeated. Good recognition names the practice, explains why it matters, and connects it to the work rather than to personality or attitude.
 
 Reinforcement should use both positive and corrective signals. Positive signals include recognition, visible leader attention, manager follow-up, simplified workflows, and evidence that the new way improves work. Corrective signals include coaching, process controls, rejection of old-format work, audit findings, and escalation when teams continue to bypass the standard. A change is weakly reinforced when the organization offers praise for compliance but accepts noncompliance without response. Employees learn more from tolerated exceptions than from official statements.
@@ -49,6 +57,13 @@ Hypercare is the period after launch when support is intensified. It should incl
 The length and intensity of hypercare should match the risk profile of the change. A low-risk process update may need two weeks of daily monitoring and scheduled office hours. A new enterprise system, regulatory process, merger integration, or operating model shift may need several waves of hypercare with different support levels by region or function. The plan should be based on operational risk, user volume, complexity, customer impact, and the cost of failure. A standard calendar is useful, but it should not replace judgment.
 
 A strong hypercare model separates intake, triage, resolution, and communication. Intake defines how employees raise questions or problems. Triage classifies the issue by severity, ownership, and affected population. Resolution assigns the issue to the right team with a clear service expectation. Communication tells users what is known, what is being fixed, and what they should do while the issue remains open. When these pieces are not separated, support teams become overloaded, duplicate issues multiply, and employees lose confidence because they cannot see whether anyone is managing the pattern.
+
+| Hypercare element | Primary question | Typical owner |
+| --- | --- | --- |
+| Intake | Where do users raise issues? | Support lead |
+| Triage | How severe is the issue and who owns it? | Hypercare coordinator |
+| Resolution | What fix or answer is required? | Process, technology, or policy owner |
+| Communication | What should affected users know now? | Change or operations lead |
 
 Issue categories should be defined before launch. Typical categories include technical defects, process defects, role ambiguity, data quality issues, access problems, training gaps, policy conflicts, capacity constraints, and local workarounds. This taxonomy matters because not all launch problems have the same owner. A system defect belongs with technology. A confusing approval standard belongs with the process owner. A persistent local workaround may belong with an operational leader. A training gap belongs with the learning owner, but only if the process itself is clear enough to teach.
 
@@ -87,6 +102,15 @@ Sustainment requires integration into roles, routines, systems, metrics, and pol
 Integration is where change stops being special. The new behavior becomes the normal way work is managed. This is the point at which the organization can reduce project intensity without losing the result. If the change still depends on special reminders, special meetings, or special reporting months after launch, it may not yet be integrated. It may simply be supervised by temporary effort.
 
 The operating model can be examined through several components: work processes, roles, governance, systems, measures, capabilities, incentives, and culture. A change may be strong in one component and weak in another. For example, a new procurement workflow may be technically embedded in a system but absent from leadership reviews. A new customer escalation process may be well documented but unsupported by role capacity. A new compliance requirement may be included in policy but missing from frontline job aids. Sustained adoption requires enough alignment across the model that the desired behavior becomes the path of least resistance.
+
+Key places to embed the change include:
+
+- Role descriptions and manager expectations.
+- Standard work, process maps, templates, and job aids.
+- System workflows, required fields, access rules, and reports.
+- Business reviews, team huddles, audits, and governance forums.
+- Onboarding, refresher training, certification, and knowledge bases.
+- Metrics, incentives, policies, and exception paths.
 
 Role integration is often underestimated. If a change adds responsibilities to a role, the role description, workload assumptions, training path, and manager expectations may need revision. Otherwise the organization has added work without creating capacity or accountability. This is especially important when changes depend on middle managers. Managers are frequently asked to coach, inspect, communicate, and escalate, but their workload is rarely adjusted. A sustainment plan should identify what managers must stop, start, and continue doing as a result of the change.
 
@@ -159,6 +183,15 @@ Another failure mode is measuring too much. A large dashboard can diffuse attent
 Drift is the gradual movement away from the intended way of working. It can look like small exceptions, delayed updates, incomplete records, skipped steps, inconsistent language, or quiet reintroduction of old tools. Drift is not always caused by resistance. It may be a rational response to friction, unclear standards, capacity constraints, or a process design that does not fit the realities of the work. Sustainment requires the organization to detect drift early and distinguish between noncompliance and useful feedback.
 
 The first response to drift should be diagnosis, not blame. Ask what makes the old behavior attractive. It may be faster, better understood, more trusted by customers, easier for managers to inspect, or better aligned with incentives. Ask where the new behavior breaks down. It may fail during exceptions, peak volume, handoffs, or customer escalations. Ask whether the standard is clear. People may appear noncompliant when the expected behavior was never translated into practical decisions.
+
+When drift appears, diagnose before selecting a response:
+
+- Is the standard clear enough to follow without interpretation?
+- Does the new process work during exceptions, peak volume, and handoffs?
+- Are managers asking for evidence in the new format?
+- Are measures or incentives still rewarding the old behavior?
+- Are employees keeping parallel trackers because the official tool is incomplete?
+- Is ownership clear for correcting the underlying cause?
 
 Drift can be categorized into four types. Knowledge drift occurs when people forget or misunderstand the new standard. Process drift occurs when the official workflow does not match real work. Incentive drift occurs when rewards or pressure favor the old behavior. Ownership drift occurs when no one feels responsible for maintaining the change. Each type requires a different response. More training may help with knowledge drift, but it will not fix an incentive problem or a process that slows urgent customer work.
 

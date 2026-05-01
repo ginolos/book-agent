@@ -20,6 +20,13 @@ The capability map should also identify task frequency and task consequence. A r
 
 One useful design framework is to classify learning needs into four categories: awareness, knowledge, skill, and judgment. Awareness means people know that something is changing and why it matters to their work. Knowledge means they can explain a concept, policy, or sequence. Skill means they can perform a task to a defined standard. Judgment means they can choose appropriately when conditions vary. Each category calls for different learning methods. A short email may create awareness. A reference guide may support knowledge. A simulation may build skill. A case discussion with feedback may develop judgment.
 
+| Learning need | What people must be able to do | Useful method |
+| --- | --- | --- |
+| Awareness | Recognize what is changing and why it matters | Briefings, manager messages, FAQs |
+| Knowledge | Explain the concept, rule, or sequence | Guides, demos, knowledge checks |
+| Skill | Perform the task to a defined standard | Sandbox practice, walkthroughs, coaching |
+| Judgment | Choose well when conditions vary | Scenarios, case clinics, calibration |
+
 This classification prevents two common failures. The first is overtraining, where everyone is forced through long sessions that include tasks they will never perform. Overtraining creates fatigue and reduces credibility. The second is undertraining, where people receive general information when they actually need guided practice. Undertraining is often hidden until launch because the training event appears complete on the project plan. The issue emerges later when employees revert to old habits, escalate routine questions, or create downstream errors.
 
 Learning should also be sequenced. People rarely absorb complex change in one sitting. A stronger approach is to layer learning over time: early awareness, role previews, process walkthroughs, hands-on practice, launch support, and post-launch refinement. Sequencing is especially important when the solution is still evolving. The change team can teach stable concepts early, such as policy intent, role boundaries, terms, and decision principles, while saving detailed system steps for later. This reduces the pressure to wait until everything is final.
@@ -116,6 +123,14 @@ Performance support should be built around moments of need. People need help whe
 
 The support design should answer four questions: where do I go, who owns the answer, how fast will I get help, and what should I do while waiting? These questions are especially important when the change affects customer service, operations, compliance, or payroll. If users do not know where to go, they will ask whoever is nearby. If ownership is unclear, answers will diverge. If response time is too slow, people will invent workarounds. If interim steps are undefined, work may stop or continue incorrectly.
 
+At minimum, each support path should make the following points explicit:
+
+- The entry point users should use first.
+- The role accountable for the answer.
+- The expected response time for urgent and standard issues.
+- The interim action users should take while waiting.
+- The escalation path when the first answer is not enough.
+
 Job aids should be short, task-centered, and version controlled. A useful job aid does not restate the whole training program. It gives the person what they need at the moment of work: required fields, decision criteria, sequence, common errors, escalation triggers, or examples of completed work. Long documents are sometimes necessary for policy or audit purposes, but they are poor tools for real-time performance. If a person has three minutes between customer calls, a forty-page guide is not support.
 
 Embedded support is often more effective than separate support. If a system can include field-level guidance, validation messages, tooltips, templates, or automated checks, the learner receives help inside the workflow. Embedded support reduces dependence on memory and can prevent errors before they happen. It should be used carefully, though. Too many prompts create noise. Poorly written validation messages frustrate users. The best embedded support is concise, specific, and connected to the decision the user is making.
@@ -162,6 +177,15 @@ The most damaging support failure is conflicting guidance. When different leader
 Capability building needs evidence. Many change plans rely on completion metrics because they are available: number of people invited, number of people trained, percentage who completed e-learning, average satisfaction rating, and number of questions asked. These measures are useful for administration, but they do not answer whether people are ready to perform. A readiness view should include evidence of understanding, task performance, decision quality, support capacity, and manager preparedness.
 
 Measurement should begin before launch. If the team waits until after go-live to assess capability, the organization may discover readiness gaps through customer complaints, rework, compliance exceptions, or operational delays. Pre-launch measures do not have to be elaborate. They can include scenario scores, sandbox completion rates, certification checks, manager readiness surveys, help desk rehearsal results, and unresolved training issues. The point is to identify where additional support is needed before pressure increases.
+
+Pre-launch evidence can be gathered from several practical sources:
+
+- Scenario scores that show how people handle normal and exception cases.
+- Sandbox completion data that shows whether users can complete key tasks.
+- Certification checks for roles where errors carry material risk.
+- Manager readiness surveys that reveal unanswered leadership questions.
+- Help desk rehearsals that test whether support teams can respond consistently.
+- Unresolved training issues that need a named owner before launch.
 
 A balanced capability dashboard can include four kinds of indicators. Input indicators show whether training and support were delivered. Learning indicators show whether people understood and practiced the required work. Performance indicators show whether the new behavior is happening correctly. Support indicators show whether the support system is absorbing questions and resolving issues. Looking at these together prevents false confidence. High training completion with poor practice results is a warning. Strong practice results with overloaded support channels is also a warning.
 
@@ -210,6 +234,15 @@ The organization should also plan for change saturation. Employees often experie
 Capability sustainment includes retiring old ways of working. If old forms, reports, templates, shortcuts, and unofficial guides remain available, people will use them. Retiring old assets should be handled carefully, especially when records must be retained, but the operating environment should make the current way clear. Archive obsolete materials, disable outdated system paths where appropriate, and remove old measures that reward old behavior. Training cannot overcome an environment that still supports the previous process.
 
 Failure modes are predictable. Materials become outdated after a system release. Champions move roles and are not replaced. Managers assume the process owner is handling reinforcement. Help desk answers diverge from policy. New hires learn from colleagues who never adopted fully. Metrics show activity but not quality. These failures are not signs that people resisted change. They are signs that capability was treated as an event rather than an operating responsibility.
+
+Common sustainment risks deserve explicit monitoring:
+
+- Learning assets that no longer match the current system or policy.
+- Champion networks that shrink without replacement.
+- Manager routines that fade after launch attention moves elsewhere.
+- Help desk guidance that drifts away from the source of truth.
+- New hires who learn through informal shortcuts instead of current standards.
+- Metrics that count activity but miss quality, consistency, and outcomes.
 
 A sustainment checklist should include:
 

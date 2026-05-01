@@ -18,6 +18,13 @@ Audience versions can then be built from the same core. Executives may need valu
 
 A practical message architecture can be organized as a one-page table. The rows are the core questions, and the columns are audiences. For each audience, the team records the primary concern, the required action, the best messenger, the best channel, and any known sensitivities. This forces the communication team to think beyond wording. It connects the message to adoption behavior. For example, an enterprise resource planning rollout may require executives to explain why standardization matters, managers to discuss local workflow changes, and employees to complete role-based training before a cutoff date.
 
+| Audience | Primary concern | Required action | Best messenger |
+| --- | --- | --- | --- |
+| Executives | Value, risk, governance | Sponsor decisions and reinforce priorities | Executive sponsor |
+| Managers | Local impacts and questions | Translate the change into team plans | Direct leader |
+| Employees | Task changes and timing | Complete preparation and use the new workflow | Manager and process owner |
+| External partners | Continuity and obligations | Follow revised service or compliance steps | Account or relationship owner |
+
 The architecture should also define what not to say. Some phrases are technically accurate but unhelpful. "There will be no impact" is rarely true if people must attend training, change a workflow, or answer customer questions. "This will make your work easier" may be premature before the organization has lived through the transition. "We are excited" is not a substitute for evidence. A grounded message uses concrete language, names tradeoffs, and avoids emotional instructions that tell people how they should feel.
 
 Before release, the architecture should be tested with a small group of representative managers or employees. The test is not a preference survey about whether people like the message. The test is comprehension. Ask the group to explain the change back in their own words, identify what they think they need to do, and name the questions they would expect from peers. If they cannot describe the change accurately, the message needs revision. If they can describe it but raise practical blockers, the communication is doing its job by exposing issues that need operational attention.
@@ -72,7 +79,14 @@ Feedback channels can include manager question logs, office hours, surveys, team
 
 The team should define how feedback will be sorted. Some feedback is about comprehension, such as "I do not understand when the old process stops." Some is about impact, such as "This changes our customer response time." Some is about feasibility, such as "The training date conflicts with month-end close." Some is about disagreement, such as "I do not believe this policy addresses the real problem." These categories require different responses. Treating all feedback as sentiment creates shallow analysis and weak action.
 
-A useful feedback process has four steps. First, capture the question or concern close to where it appears. Second, assign an owner who can answer or route it. Third, publish the answer or decision where others can see it. Fourth, update the communication, training, or implementation plan if the feedback reveals a gap. The fourth step is often skipped, which is why the same confusion returns in later meetings.
+A useful feedback process has four steps:
+
+- Capture the question or concern close to where it appears.
+- Assign an owner who can answer or route it.
+- Publish the answer or decision where others can see it.
+- Update the communication, training, or implementation plan if the feedback reveals a gap.
+
+The fourth step is often skipped, which is why the same confusion returns in later meetings.
 
 Leaders should expect some feedback to be uncomfortable. People may point out contradictions, capacity problems, missing decision rights, or loss of valued practices. Defensive responses reduce the value of the channel. A grounded response separates tone from substance. Even if a comment is frustrated, it may contain useful information about risk. The discipline is to ask, "What does this tell us about adoption conditions?" before deciding whether the concern is valid, addressable, or outside the scope of the change.
 
@@ -101,7 +115,14 @@ Manager-led sensemaking requires preparation before broad communication reaches 
 
 A manager discussion guide should be practical rather than scripted. It can include prompts such as: What is changing in our team workflow? What is staying the same? What decisions have already been made? What can we influence? What must we learn before the effective date? What risks should we escalate? What work can stop or be simplified during the transition? These questions shift communication from passive receipt to local planning.
 
-Managers also need a way to handle emotional responses without becoming informal therapists or unsupported complaint handlers. A useful pattern is acknowledge, clarify, connect, and route. Acknowledge the concern without judging it. Clarify the practical issue underneath it. Connect the concern to available information or support. Route unresolved decisions or risks through the agreed escalation path. This keeps the conversation respectful and operational.
+Managers also need a way to handle emotional responses without becoming informal therapists or unsupported complaint handlers. A useful pattern is acknowledge, clarify, connect, and route:
+
+- Acknowledge the concern without judging it.
+- Clarify the practical issue underneath it.
+- Connect the concern to available information or support.
+- Route unresolved decisions or risks through the agreed escalation path.
+
+This keeps the conversation respectful and operational.
 
 The organization should not assume that every manager is equally ready to communicate change. Some managers will be comfortable facilitating discussion. Others may avoid conflict, overstate certainty, personalize the change, or drift into speculation. Manager enablement should therefore include short preparation sessions, not only a slide deck. In these sessions, managers can practice answering difficult questions, identify local impacts, and understand which issues they are expected to escalate.
 
@@ -135,6 +156,14 @@ Bad news should be communicated with timing, specificity, and respect. Delayed c
 There are also legal, labor, and regulatory constraints on some communications. Those constraints are real and should be respected. However, legal review should not become an excuse for unusable language. The communication team should work with counsel and employee relations partners to produce messages that are accurate, compliant, and understandable. Employees should not have to decode a legal memo to understand what is happening to their job, schedule, process, or customer commitment.
 
 Failure modes in this area are predictable. Leaders overpromise benefits before implementation risk is understood. Project teams hide uncertainty until late in the timeline. Messages describe the future state but not the transition burden. Bad news is softened until people cannot tell what has been decided. The correction is disciplined specificity: what is decided, what is pending, what changes now, what changes later, and what support exists.
+
+Before approving a difficult message, the team should check that it names:
+
+- The decision that has been made.
+- The groups affected by the decision.
+- The reason the decision was made.
+- The timing, support, and next forum for questions.
+- The unknowns that still have owners and update dates.
 
 ### Section Summary
 - Credible communication names uncertainty and tradeoffs instead of hiding them.

@@ -12,6 +12,7 @@ Use this checklist before exporting a nonfiction manuscript to DOCX.
 - The intended reader is still visible throughout the manuscript.
 - Abstract points are supported by examples, case snapshots, frameworks, or practical explanation where needed.
 - Practical sections, checklists, templates, or diagnostic material are included only where they genuinely improve usefulness.
+- Dot-point lists and tables are used in selected sections to improve scanability and reader engagement.
 - The manuscript avoids filler and repeated emphasis.
 
 ## Style
@@ -25,6 +26,7 @@ Use this checklist before exporting a nonfiction manuscript to DOCX.
 - Headings are formatted consistently.
 - Chapter numbering is consistent.
 - Summary and reference sections follow a consistent pattern.
+- Tables use simple markdown formatting and have clear column labels.
 - Terminology, framework names, and recurring phrases are used consistently.
 
 ## Final export readiness

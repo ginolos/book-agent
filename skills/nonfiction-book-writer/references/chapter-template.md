@@ -11,7 +11,18 @@ Use this template when writing completed nonfiction chapters.
 
 ## [Section 1 Title]
 
-[Full narrative content with cohesive paragraphs. Use integrated bullet points only when they improve clarity and flow.]
+ [Full narrative content with cohesive paragraphs. Use integrated bullet points only when they improve clarity and flow.]
+
+Optional practical list:
+
+- [Useful action, diagnostic question, or decision criterion.]
+- [Useful action, diagnostic question, or decision criterion.]
+
+Optional compact table:
+
+| Situation | Reader action | Evidence to check |
+| --- | --- | --- |
+| [Condition] | [Action] | [Evidence] |
 
 ### Section Summary
 - [Summary 1 as a complete sentence.]
@@ -45,6 +56,16 @@ Use this template when writing completed nonfiction chapters.
 - [Summary point 2 as a complete sentence.]
 - [Summary point 3 as a complete sentence.]
 ```
+
+## Scanability guidance
+
+Use bullets and tables selectively. A chapter should still read like a book chapter, but dense practical material should not appear only as long blocks of prose. Good table uses include:
+
+- comparing stakeholder groups
+- clarifying roles and decision rights
+- showing common failure modes and fixes
+- summarizing metrics
+- listing readiness signals and responses
 
 ## Filename convention
 

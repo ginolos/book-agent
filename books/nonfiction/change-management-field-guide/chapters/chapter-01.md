@@ -18,6 +18,13 @@ The installation-adoption gap often appears after a project is described as comp
 
 Adoption requires a different set of questions than installation. Instead of asking only whether the change has been deployed, leaders ask who must behave differently, what they must stop doing, what they must start doing, what conditions make the new behavior realistic, and how the organization will know whether the behavior is taking hold. These questions sound simple, but they force a level of operational specificity that many change efforts avoid until late in the project.
 
+At minimum, an adoption definition should make four things visible:
+
+- The specific behavior expected from each impacted group.
+- The routine or decision point where the behavior will occur.
+- The support required for people to perform the behavior under pressure.
+- The evidence leaders will use to judge whether the behavior is becoming normal.
+
 A useful diagnostic is the "first Monday test." Imagine the first ordinary Monday after launch, with no executive event, no project team sitting beside users, and no unusual attention on the change. What will employees do when the old habit is faster, when a customer presses for an exception, when a manager is absent, or when a report needs to be completed by noon? If the answer depends mainly on goodwill, memory, or heroic effort, the change has not yet been designed for adoption.
 
 The practical response is to define adoption in behavioral terms. For example, "use the new customer relationship management system" is too broad. A stronger definition is: "Account executives enter next-step commitments within twenty-four hours of customer meetings, sales managers review those commitments in weekly pipeline meetings, and forecast calls use the new opportunity stage definitions." This definition connects the tool, the behavior, the manager routine, and the business process. It gives the change team something observable to support and measure.
@@ -53,7 +60,15 @@ The fourth cause is insufficient capability building. Many training plans are de
 
 The fifth cause is reinforcement conflict. A new way of working may be announced, while the old metrics, incentives, meeting agendas, and status reports remain intact. If employees are told to improve quality but still rewarded mainly for volume, volume will win. If managers are told to coach differently but their performance reviews emphasize short-term output only, coaching will be squeezed out. The operating system teaches people what is truly valued.
 
-A simple failure-mode checklist can reveal risk before launch: Is the reason for change specific enough to guide tradeoffs? Are sponsors visible in the forums employees actually watch? Do managers understand the change before their teams do? Have critical user groups practiced realistic tasks? Are old process steps being retired, or are they simply being layered under the new process? Are metrics tracking behavior and outcomes, not only activities? Does anyone own adoption after the project team moves on?
+A simple failure-mode checklist can reveal risk before launch:
+
+- Is the reason for change specific enough to guide tradeoffs?
+- Are sponsors visible in the forums employees actually watch?
+- Do managers understand the change before their teams do?
+- Have critical user groups practiced realistic tasks?
+- Are old process steps being retired, or are they simply being layered under the new process?
+- Are metrics tracking behavior and outcomes, not only activities?
+- Does anyone own adoption after the project team moves on?
 
 Consider a procurement transformation that introduces a new intake process for vendor requests. The policy is approved, the portal is configured, and employees attend training. Three months later, business units still email procurement contacts directly. The project team initially labels this resistance. A closer diagnostic shows a more ordinary explanation: urgent requests are not triaged quickly in the portal, senior leaders still ask their assistants to bypass the process, and procurement managers continue praising team members for "being responsive" to direct requests. The failure is not attitude. It is system design, sponsorship, and reinforcement.
 
@@ -76,7 +91,15 @@ The most useful shift is to treat change as operating work. That means asking ho
 
 Operating work is concrete. It has owners, dates, rhythms, constraints, and consequences. If a change is important, it should appear in the same places where the organization manages important work: leadership agendas, performance reviews, budget discussions, risk logs, team meetings, customer commitments, and operational dashboards. When the change remains separate from these mechanisms, it becomes an overlay. Overlays are easy to remove when pressure rises.
 
-One useful framework is to examine five operating conditions: decision rights, work process, capability, reinforcement, and feedback. Decision rights clarify who can make tradeoffs and resolve conflicts. Work process defines where the new behavior fits into the flow of work. Capability addresses whether people can perform the new behavior under realistic conditions. Reinforcement aligns metrics, incentives, recognition, and manager attention. Feedback creates a way to learn what is working and what is not.
+One useful framework is to examine five operating conditions:
+
+| Operating condition | Practical question |
+| --- | --- |
+| Decision rights | Who can make tradeoffs and resolve conflicts? |
+| Work process | Where does the new behavior fit into the flow of work? |
+| Capability | Can people perform the new behavior under realistic conditions? |
+| Reinforcement | Do metrics, incentives, recognition, and manager attention support the change? |
+| Feedback | How will the organization learn what is working and what is not? |
 
 These five conditions can be used as a planning canvas. For each impacted group, ask: What decisions will they make differently? What specific steps in their work will change? What knowledge, skill, access, or confidence do they need? What will encourage the new behavior or discourage the old one? What feedback will show whether the design is working? The canvas keeps the conversation practical and prevents the change plan from becoming only a communication plan.
 
@@ -111,7 +134,16 @@ Readiness also varies by group. Senior leaders may be ready because they have di
 
 One diagnostic method is the impact-to-readiness matrix. List each impacted group, then rate the degree of impact and the current readiness level. A group with high impact and low readiness requires focused action before launch. A group with high impact and high readiness may become a useful source of peer support. A group with low impact and low readiness may need simple targeted communication rather than heavy intervention. The point is not to create a perfect score. The point is to direct attention where adoption risk is real.
 
-Another useful method is the friction interview. Instead of asking whether people support the change, ask them to walk through a specific future task. What will you do first? Which system will you open? What information will you need? Who approves the exception? What will you do if the customer asks for the old process? Where will this step fit in your week? These questions uncover operational friction that broad surveys miss.
+Another useful method is the friction interview. Instead of asking whether people support the change, ask them to walk through a specific future task:
+
+- What will you do first?
+- Which system will you open?
+- What information will you need?
+- Who approves the exception?
+- What will you do if the customer asks for the old process?
+- Where will this step fit in your week?
+
+These questions uncover operational friction that broad surveys miss.
 
 Failure to diagnose readiness creates expensive rework. A manufacturing company might roll out a new maintenance scheduling process and discover after launch that supervisors cannot release technicians for planned maintenance because production targets remain unchanged. A nonprofit might introduce a new donor management system and discover that field staff do not enter data because connectivity is poor during travel. A software company might launch a new product packaging model and discover that account teams cannot explain migration paths to existing customers. In each case, the problem could have been detected through task-level readiness work.
 
@@ -144,7 +176,15 @@ Tradeoffs should be made explicit. A new quality process may temporarily slow th
 
 Trust, capacity, and tradeoffs are closely connected. When leaders acknowledge the real cost of change and make visible choices to support it, they increase the chance that employees will engage seriously. When leaders ask for change without changing priorities, employees assume the organization is adding work without accountability. That assumption, once formed, is difficult to reverse.
 
-A practical checklist for leaders includes five questions: What pressure are employees already under? Which previous changes influence how this one will be received? What work will be removed or reduced? Which tradeoffs must managers be able to explain? What evidence will show employees that leaders are committed beyond the announcement? These questions can be uncomfortable. They are also cheaper than discovering the answers after adoption has stalled.
+A practical checklist for leaders includes five questions:
+
+- What pressure are employees already under?
+- Which previous changes influence how this one will be received?
+- What work will be removed or reduced?
+- Which tradeoffs must managers be able to explain?
+- What evidence will show employees that leaders are committed beyond the announcement?
+
+These questions can be uncomfortable. They are also cheaper than discovering the answers after adoption has stalled.
 
 ### Section Summary
 - Employees experience change within existing workload, history, and trust conditions.

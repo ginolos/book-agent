@@ -11,3 +11,10 @@
 
 - The manuscript uses general professional references rather than footnoted academic citations.
 - If the book is intended for commercial publication, a later pass could add original case studies, named interviews, or industry-specific examples.
+
+## Version 2 Formatting Pass
+
+- Updated the nonfiction writer and editor skills so future full-book projects default to parallel chapter workers when permitted, local chapter word-count verification, and a scanability pass using selected bullet lists and compact markdown tables.
+- Added dot-point lists and at least one practical table to each chapter of this manuscript.
+- Recompiled the updated manuscript as `change-management-field-guide-v2.md` and exported `change-management-field-guide-v2.docx`.
+- Verified every chapter remains above 3,000 words and the compiled v2 manuscript is approximately 78,673 words.

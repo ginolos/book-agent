@@ -6,6 +6,12 @@ Adoption measurement should connect behavior to outcomes. It should help the tea
 
 The purpose of this chapter is to make measurement practical. A measurement approach does not need to be mathematically elaborate to be useful. It does need to be clear about what the organization expects people to do differently, what evidence will show whether that is happening, and how the team will respond when the evidence is mixed.
 
+A practical measurement approach should answer three questions:
+
+- What observable behavior should change?
+- What evidence will show whether the behavior is improving?
+- What decision or support action will follow when the evidence changes?
+
 ---
 
 ## What to Measure
@@ -51,6 +57,11 @@ The best measurement plans include both types of indicators. Leading indicators 
 
 Timing matters. A leading indicator must be available early enough to influence action, and a lagging indicator must be reviewed after enough time has passed for the change to affect performance. Measuring customer retention two weeks after a service model change may create false disappointment. Waiting six months to notice that supervisors are not using the new coaching routine may waste the best window for support.
 
+| Indicator Type | What It Shows | Typical Use |
+| --- | --- | --- |
+| Leading | Whether adoption conditions are forming | Adjust support before value is lost |
+| Lagging | Whether business results improved | Confirm value and refine investment |
+
 ### Practical Example
 
 Consider a company implementing a new incident management process in technology operations. Lagging indicators include mean time to restore service, recurring incident volume, customer impact hours, and post-incident action closure. Leading indicators include the percentage of incidents assigned a commander within the target time, use of a standard severity model, completion quality of post-incident reviews, and attendance of required resolver groups. The leading indicators show whether the process is being used when it matters. The lagging indicators show whether the process is improving reliability.
@@ -78,6 +89,13 @@ A learning approach asks what the data reveals about adoption conditions. Low us
 The tone of measurement is set by the questions leaders ask. Questions such as "Who is not complying?" narrow attention to blame. Questions such as "What is making adoption difficult in this group?" open the door to useful correction. Leaders still need accountability, especially when a required process protects safety, customers, legal compliance, or financial control. The distinction is that accountability should follow diagnosis, not replace it.
 
 Learning also requires qualitative evidence. Survey scores and dashboards can reveal patterns, but they rarely explain them fully. Short interviews, manager observations, help desk notes, and retrospective discussions can show why the numbers look the way they do. A team may find that employees understand the new process but cannot complete it because a required field is confusing. Another team may find that adoption is high during audits and low during normal operations, which points to reinforcement rather than knowledge.
+
+Useful qualitative inputs include:
+
+- Brief interviews with people using the new process.
+- Manager observations from routine work reviews.
+- Help desk themes and recurring support questions.
+- Retrospective notes from teams closest to the workflow.
 
 ### Diagnostic Questions
 
@@ -112,6 +130,13 @@ For example, a bank introducing a new risk review process might define the objec
 
 The framework should be designed with the people who own the work. Measurement imposed from the project team alone may miss important operational realities. Frontline managers can help identify which measures are practical, which would be easy to manipulate, and which would actually indicate better work. Data owners can confirm whether measures are available, reliable, and timely. Finance or performance teams can help distinguish plausible value indicators from claims that are too broad to attribute to the change.
 
+The strongest frameworks usually have a small set of shared design principles:
+
+- Measures are close enough to the work that teams recognize them as fair.
+- Data is available soon enough to guide decisions.
+- The framework includes both support actions and escalation paths.
+- Business owners understand when project ownership will transfer to them.
+
 ### Framework Template
 
 | Layer | Key Question | Example |
@@ -145,6 +170,13 @@ The baseline does not need to be perfect, but it should be honest. Many organiza
 Targets should be realistic and staged. A common mistake is to set an end-state target for the first reporting period, then interpret normal ramp-up as failure. Adoption often follows a curve. Early users test the change, managers learn how to reinforce it, defects are fixed, and late adopters need additional support. A staged target might expect 50 percent quality adoption in the first month, 75 percent in the third month, and 90 percent after process stabilization.
 
 Targets should also reflect the risk of the change. For a safety-critical process, the acceptable threshold may be high from the first day, and the organization may need intensive readiness checks before go-live. For a knowledge management behavior, the ramp may be slower, and the emphasis may be on habit formation and content quality. A target is not merely a number. It is a statement about urgency, risk tolerance, and expected learning.
+
+Target setting should account for:
+
+- The risk created by poor adoption.
+- The time needed for people to build proficiency.
+- The reliability of available baseline data.
+- The level of operational disruption created by the change.
 
 ### Baseline and Target Checklist
 
